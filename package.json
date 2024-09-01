@@ -12,21 +12,21 @@
   "author": "Bharath and Bookman Associates",
   "license": "Apache-2.0",
   "dependencies": {
-    "@reach/skip-nav": "^0.16.0",
-    "focus-visible": "^5.1.0",
-    "intersection-observer": "^0.10.0",
-    "markdown-to-jsx": "^6.11.4",
-    "next": "^12.1.0",
-    "nextra": "^2.0.0-alpha.50",
-    "nextra-theme-docs": "^2.0.0-alpha.53",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "react-intersection-observer": "^8.26.2"
+    "@reach/skip-nav": "^0.18.0",
+    "focus-visible": "^5.2.1",
+    "intersection-observer": "^0.12.2",
+    "markdown-to-jsx": "^7.5.0",
+    "next": "^14.2.7",
+    "nextra": "^2.13.4",
+    "nextra-theme-docs": "^2.13.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-intersection-observer": "^9.13.0"
   },
   "devDependencies": {
-    "autoprefixer": "^10.4.2",
-    "postcss": "^8.4.5",
-    "tailwindcss": "^3.0.16"
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.42",
+    "tailwindcss": "^3.4.10"
   },
   "prettier": {
     "embeddedLanguageFormatting": "off",

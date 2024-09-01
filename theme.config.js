@@ -75,8 +75,7 @@ export default {
     const { route } = useRouter();
 
     const ogImage =
-      meta.image ||
-      `https://og-image.vercel.app/**Plot%20Twist%20Kft**..png?theme=dark&md=1&fontSize=100px`;
+      meta.image || {};
 
     return (
       <>
