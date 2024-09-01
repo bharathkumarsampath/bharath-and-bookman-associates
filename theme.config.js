@@ -74,8 +74,10 @@ export default {
   head: ({ title, meta }) => {
     const { route } = useRouter();
 
-    const ogImage =
-      meta.image || {};
+    meta = meta || {};
+
+    // Safely access the image property with a fallback
+    const ogImage = (meta && meta.image) || `https://og-image.vercel.app/${encodeURIComponent(title || 'Default Title')}.png`;
 
     return (
       <>
